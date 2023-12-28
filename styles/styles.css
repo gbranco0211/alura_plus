@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --cor-fundo: #00030C;
+    --cor-fonte: #fff;
+    --cor-fonte2: #F9F9F9;
+    --cor-botao: #167BF7;
+    --cor-legenda: #C0C0C0;
+
+    --fonte: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+.container__principal{
+    height: 100vh;
+    background-image: url(/assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container__principal__titulo{
+    color: var(--cor-fonte);
+    font-family: var(--fonte);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    gap: 16px;
+}
+
+.container__principal__botao1{
+    background-color: var(--cor-botao);
+    padding: 1rem;
+    width: 512px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--cor-fonte);
+    font-family: var(--fonte);
+    gap: 16px;
+}
+
+.container__principal__botao2{
+    border: 1px solid var(--cor-fonte);
+    padding: 1rem;
+    width: 512px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--cor-fonte);
+    font-family: var(--fonte);
+}
