@@ -75,7 +75,7 @@ body{
 }
 
 .secundario_imagem{
-    width: 80%;
+    width: 80vw;
 }
 
 .secundario{
@@ -142,4 +142,37 @@ body{
 .rodape{
     text-align: center;
     margin: 5em 3em;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        height: auto;
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2em;
+    }
+
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario_imagem{
+        width: 50vw;
+    }
+
+    .dispositivos__lista{
+        display: block;
+    }
+
+    .rodape__lista{
+        display: block;
+    }
 }
